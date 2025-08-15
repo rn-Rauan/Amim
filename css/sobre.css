@@ -2,8 +2,8 @@
 /* ESTILO GERAL */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffe9f7;
-    color: #000000;
+    background-color: var(background);
+    color: var(--texto-principal);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -18,30 +18,29 @@ body {
 
 /* CONTEÚDO */
 .conteudo {
-    background: #ff99cc;
+    background: var(--container-bg);
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: var(--sombra);
     margin-bottom: 30px;
     
 }
 
 .conteudo h2 {
     font-size: 1.8rem;
-    color: #5a2d1c; /* cor marrom do texto */
+    color: var(--texto-principal)
     margin-bottom: 12px;
 }
 
 .conteudo p {
     font-size: 1rem;
-    color: #ffffff;
     margin-bottom: 15px;
 }
 
 /* BOTÃO COPIAR */
 #btnCopiar {
-    background-color: #ff4da6;
-    color: white;
+    background-color: var(botao-bg);
+    color: var(--botao-texto);
     border: none;
     padding: 8px 14px;
     border-radius: 8px;
@@ -51,7 +50,7 @@ body {
 }
 
 #btnCopiar:hover {
-    background-color: #d186ab;
+    background-color: var(--botao-bg-hover);
 }
 
 /* RESPONSIVIDADE */

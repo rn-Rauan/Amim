@@ -29,3 +29,37 @@
   --footer-bg: #ff4da6; /* rosa vibrante */ 
   --footer-texto: #ffffff; /* branco para o texto do footer */
 }
+
+/* Dark mode */
+body.dark-mode {
+  /* Fundo geral do site */
+  --background: #1e1e1e; /* fundo escuro */
+
+  /* Navbar */
+  --navbar-bg: #333333; /* cinza escuro */
+  --navbar-texto: #ffffff; /* branco */
+  --navbar-texto-hover: #867b81; /* rosa claro no hover */
+
+  /* Container */
+  --container-bg: #2c2c2c; /* container mais escuro que o fundo */
+
+  /* Botões */
+  --botao-bg: #ff4da6; /* mantém rosa vibrante */
+  --botao-bg-hover: #e64494; /* rosa mais escuro no hover */
+
+  /* Texto de botões */
+  --botao-texto: #ffffff; /* branco */
+  --botao-texto-hover: #ffccdd; /* rosa claro para contraste */
+
+  /* Textos gerais */
+  --texto-principal: #f0f0f0; /* quase branco para contraste */
+  --texto-destaque: #ff99cc; /* rosa suave para destaque */
+
+  /* Sombras */
+  --sombra: rgba(0, 0, 0, 0.5); /* sombra mais intensa */
+
+  /* Footer */
+  --footer-bg: #333333; /* cinza escuro */
+  --footer-texto: #ffffff; /* branco para o texto do footer */
+}
+

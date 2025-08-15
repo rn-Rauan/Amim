@@ -236,3 +236,18 @@ footer {
   background: var(--footer-bg);
   color: var(--footer-texto);
 }
+
+#darkModeToggle {
+  background: var(--botao-bg);
+  color: var(--botao-texto);
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#darkModeToggle:hover {
+  background: var(--botao-bg-hover);
+  color: var(--botao-texto-hover);
+}
