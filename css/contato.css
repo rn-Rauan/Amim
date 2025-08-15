@@ -115,4 +115,56 @@ footer p {
   margin: 0;
   font-size: 0.9rem;
 }
+/* Responsivo para tablets e celulares */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
 
+  aside, .conteudo {
+    width: 100%;
+  }
+
+  .redes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .redes a {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .conteudo {
+    padding: 1rem;
+  }
+
+  .form-contato input,
+  .form-contato textarea {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .form-contato button {
+    width: 100%;
+    padding: 0.6rem;
+  }
+
+  .logo {
+    width: 120px;
+    height: 80px;
+  }
+}
