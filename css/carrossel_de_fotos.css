@@ -20,7 +20,7 @@
     height: 500px;          /* base */
     overflow: hidden;
     border-radius: 0;
-    background: #fff;       /* “barras” nas laterais/topo */
+    background: #ffd1ed;;       /* “barras” nas laterais/topo */
   }
   
   /* telas grandes: use boa parte da altura da janela */
@@ -51,7 +51,7 @@
     display: flex;          /* centraliza a imagem */
     align-items: center;
     justify-content: center;
-    background: #fff;       /* garante barras nas áreas vazias */
+    background: #ffd1ed;;       /* garante barras nas áreas vazias */
   }
   
   /* AQUI está o truque: imagem dimensionada pela ALTURA, mantendo proporção */
