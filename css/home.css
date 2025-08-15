@@ -1,3 +1,22 @@
+@import url(/css_globais/cores.css);
+@import url(/css_globais/header.css);
+@import url(/css/nav.css);
+@import url(/css_globais/botaoTopo.css);
+@import url(/css/carrossel_de_fotos.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: var(--cor-branco);
+  color: var(--cor-marrom);
+  line-height: 1.5;
+}
+
 /* Footer */
 footer {
   text-align: center;
@@ -11,4 +30,16 @@ footer {
 footer p {
   margin: 0;
   font-size: 0.9rem;
+}
+
+/* ===== Header ===== */
+header nav a {
+  color: var(--cor-branco);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: var(--cor-rosa-claro);
 }
