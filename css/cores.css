@@ -1,0 +1,7 @@
+:root {
+  --cor-rosa-principal: #ff4da6; /* rosa vibrante do fundo */
+  --cor-rosa-claro: #ff99cc; /* rosa suave dos corações */
+  --cor-marrom: #5a2d1c; /* marrom do texto "DOCES E SALGADOS" */
+  --cor-branco: #ffffff; /* branco para contrastes */
+  --cor-sombra: rgba(0, 0, 0, 0.1);
+}
