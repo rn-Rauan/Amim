@@ -1,7 +1,4 @@
 
-// Atualiza o ano no rodapé
-document.getElementById('ano').textContent = new Date().getFullYear();
-
 const form = document.getElementById('filtros');
 const busca = document.getElementById('busca');
 const info = document.getElementById('resultado-info');
