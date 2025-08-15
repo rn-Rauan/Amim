@@ -17,7 +17,7 @@ body {
 
 /* CONTEÚDO */
 .conteudo {
-    background: #ffffff;
+    background: #ff99cc;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -33,7 +33,7 @@ body {
 
 .conteudo p {
     font-size: 1rem;
-    color: #464646;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
