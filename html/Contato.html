@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="/css/botaoTopo.css">
+    <link rel="stylesheet" href="/css/contato.css">
 </head>
 <body>
+    <main class="container">
+    <aside>
+      <h2>Amim</h2>
+      <p>Doces e Salgados</p>
+      <div class="redes">
+        <a href="#">Facebook</a>
+        <a href="#">Whatszap</a>
+        <a href="#">Instagram</a>
+      </div>
+    </aside>
+
+    <section class="conteudo">
+      <h2>Formulário de Contato</h2>
+      <form class="form-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
     <script src="/script/botaoTopo.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Amim. Todos os direitos reservados.</p>   
+    </footer>
 </body>
 </html>
