@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Entrar</title>
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="/img/transparent-Photoroom.png" alt="Logo do site">
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Login</h1>
+
+      <div id="mensagem" style="display: none;"></div>
+
+      <form id="form-login">
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="password" id="senha" name="senha" placeholder="Senha" required>
+
+        <div class="botoes">
+          <button type="submit" class="botao-entrar">Entrar</button>
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <script type="module" src="/view/script/login.ts"></script>
+  <script src="/view/script/botaoTopo.js"></script>
+    <footer>
+        <p>&copy; 2025 Amim. Todos os direitos reservados.</p>   
+    </footer>
+</body>
+
+</html>
