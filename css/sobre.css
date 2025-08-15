@@ -28,7 +28,7 @@ body {
 
 .conteudo h2 {
     font-size: 1.8rem;
-    color: var(--texto-principal)
+    color: var(--texto-principal);
     margin-bottom: 12px;
 }
 
