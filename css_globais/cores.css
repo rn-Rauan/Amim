@@ -1,20 +1,31 @@
 :root {
-  --cor-rosa-principal: #e07a5f;   /* rosa/laranja suave para elementos principais */
-  --cor-rosa-claro: #f4b49f;       /* rosa/laranja claro para destaques */
-  --cor-marrom: #333333;           /* marrom escuro, legível para textos */
-  --cor-branco: #ffffff;           /* branco para contrastes */
-  --cor-sombra: rgba(0, 0, 0, 0.08); /* sombra suave */
-  --background: #fff8f4;           /* fundo suave */
-  --radius: 12px;                  /* bordas arredondadas */
-  --padding: 1rem;                 /* espaçamento padrão */
-  --gap: 1rem;                      /* espaçamento entre elementos */
-  --fonte: Arial, Helvetica, sans-serif; /* fonte principal */
-  /* //////// */
-  --cor-rosa-principal: #e07a5f;
-  --cor-rosa-claro: #f4b49f;
-  --cor-marrom: #333333;
-  --cor-branco: #ffffff;
-  --cor-sombra: rgba(0, 0, 0, 0.1);
+  /* Fundo geral do site */
+  --background: #ffd1ed; /* cor de fundo suave */
 
+  /* Navbar */
+  --navbar-bg: #ff4da6; /* rosa vibrante para a barra de navegação */
+  --navbar-texto: #ffffff; /* branco para textos da navbar */
+  --navbar-texto-hover: #ff99cc; /* rosa claro no hover */
+  
+  /* Container */
+  --container-bg: #ffffff; /* branco para destacar o conteúdo */
+
+  /* Botões */
+  --botao-bg: #ff4da6; /* rosa vibrante */
+  --botao-bg-hover: #e64494; /* rosa mais escuro no hover */
+
+  /* Texto de botões */
+  --botao-texto: #ffffff; /* branco */
+  --botao-texto-hover: #5a2d1c; /* marrom */
+
+  /* Textos gerais */
+  --texto-principal: #5a2d1c; /* marrom para textos */
+  --texto-destaque: #ff99cc; /* rosa suave para destaque */
+
+  /* Sombras */
+  --sombra: rgba(0, 0, 0, 0.1);
+
+  /* Footer */
+  --footer-bg: #ff4da6; /* rosa vibrante */ 
+  --footer-texto: #ffffff; /* branco para o texto do footer */
 }
-

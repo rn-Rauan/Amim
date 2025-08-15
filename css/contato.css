@@ -4,8 +4,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: var(--background);
-  color: --cor-branco;
+    background-color: var(--background);
+  color: var(--texto-principal);
 }
 
 /* Container principal */
@@ -18,8 +18,8 @@ body {
 /* Aside com perfil */
 aside {
   width: 25%;
-  background-color: var(--cor-rosa-claro);
-  color: var(--cor-branco);
+  background-color: var(--container-bg);
+  color:var(--botao-texto);
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
@@ -39,7 +39,7 @@ aside {
 
 .redes a {
   padding: 0.5rem;
-  background-color: var(--cor-rosa-principal);
+  background-color: var(--botao-bg);
   color: var(--cor-branco);
   border-radius: 4px;
   text-decoration: none;
@@ -48,20 +48,21 @@ aside {
 }
 
 .redes a:hover {
-  background-color: var(--cor-rosa-claro);
+  background-color: var(--botao-bg-hover);
+  color: var(--botao-texto-hover);
 }
 
 /* Conteúdo principal */
 .conteudo {
   width: 75%;
-  background-color: var(--cor-rosa-claro);
+  background-color: var(--container-bg);
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: var(--cor-sombra);
+  box-shadow: var(--sombra);
 }
 
 .conteudo h2 {
-  color: var(--cor-branco);
+  color: var(--texto-destaque);
 }
 
 .form-contato {
@@ -69,7 +70,6 @@ aside {
   flex-direction: column;
   gap: 1rem;
   margin-top: 1rem;
-  color: var(--cor-branco);
 }
 
 .form-contato label {
@@ -79,7 +79,7 @@ aside {
 .form-contato input,
 .form-contato textarea {
   padding: 0.75rem;
-  border: 1px solid var(--cor-branco);
+  border: 1px solid var(--sombra);
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -87,8 +87,8 @@ aside {
 .form-contato button {
   align-self: flex-start;
   padding: 0.6rem 1.2rem;
-  background-color: var(--cor-rosa-principal);
-  color: var(--cor-branco);
+  background-color: var(--botao-bg);
+  color: var(--botao-texto);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -97,15 +97,16 @@ aside {
 }
 
 .form-contato button:hover {
-  background-color: var(--cor-rosa-claro);
+  background-color: var(--botao-bg-hover);
+  color: var(--botao-texto-hover);
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: var(--cor-rosa-principal);
-  color: var(--cor-branco);
+  background-color: var(--footer-bg);
+  color: var(--footer-texto);
   position: relative;
   bottom: 0;
   width: 100%;

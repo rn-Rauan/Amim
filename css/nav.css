@@ -1,20 +1,21 @@
+@import url(/css_globais/cores.css);
 /* HEADER E NAV */
 header nav {
-    background-color: #e07a5f;
+    background-color: var(--navbar-bg); ;
     display: flex;
     padding: 12px;
     width: 100%;
 }
 
 header nav a {
-    color: white;
+    color: var(--navbar-texto);
     text-decoration: none;
     font-weight: bold;
     transition: opacity 0.2s ease;
 }
 
 header nav a:hover {
-    opacity: 0.8;
+    color: var(--navbar-texto-hover);
 }
 
 .navigation_group {
@@ -43,9 +44,9 @@ header nav a:hover {
   top: 4.5rem;
   right: 2rem;
   width: 250px;
-  background: var(--cor-branco);
+  background: var(--container-bg);
   border-radius: 0.5rem;
-  box-shadow: 0 4px 10px var(--cor-sombra);
+  box-shadow: 0 4px 10px var(--sombra);
   padding: 1rem;
   animation: fadeIn 0.3s ease-in-out;
 }
@@ -69,16 +70,17 @@ header nav a:hover {
 .profile_name {
   font-size: 1rem;
   font-weight: bold;
+  color: var(--texto-principal);
 }
 
 .profile_email {
   font-size: 0.85rem;
-  color: gray;
+  color: var(--texto-destaque);
 }
 
 .divider {
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--navbar-texto-hover);
   margin: 0.75rem 0;
 }
 
@@ -92,8 +94,9 @@ header nav a:hover {
 .dropdown_wrapper nav ul li {
   cursor: pointer;
   padding: 0.5rem 0;
+  color: var(--texto-principal);
 }
 
 .dropdown_wrapper nav ul li:hover {
-  color: var(--cor-rosa-principal);
+  color: var(--botao-bg);
 }
