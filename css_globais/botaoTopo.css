@@ -1,4 +1,4 @@
-@import url(cores.css);
+@import url(/css_globais/cores.css);
 /* Botão Voltar ao Topo */
 #btnTopo {
   all: unset; /* remove herança de estilos da página */

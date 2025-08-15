@@ -1,5 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+
 const btnCopiar = document.getElementById("btnCopiar");
 // Texto que queremos copiar para a área de transferência
 const texto = "(86) 99918-3229";

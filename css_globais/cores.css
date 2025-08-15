@@ -1,0 +1,20 @@
+:root {
+  --cor-rosa-principal: #e07a5f;   /* rosa/laranja suave para elementos principais */
+  --cor-rosa-claro: #f4b49f;       /* rosa/laranja claro para destaques */
+  --cor-marrom: #333333;           /* marrom escuro, legível para textos */
+  --cor-branco: #ffffff;           /* branco para contrastes */
+  --cor-sombra: rgba(0, 0, 0, 0.08); /* sombra suave */
+  --background: #fff8f4;           /* fundo suave */
+  --radius: 12px;                  /* bordas arredondadas */
+  --padding: 1rem;                 /* espaçamento padrão */
+  --gap: 1rem;                      /* espaçamento entre elementos */
+  --fonte: Arial, Helvetica, sans-serif; /* fonte principal */
+  /* //////// */
+  --cor-rosa-principal: #e07a5f;
+  --cor-rosa-claro: #f4b49f;
+  --cor-marrom: #333333;
+  --cor-branco: #ffffff;
+  --cor-sombra: rgba(0, 0, 0, 0.1);
+
+}
+

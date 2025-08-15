@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const profileBtn = document.querySelector('.profile_btn');
 const dropdown = document.querySelector('.dropdown_wrapper');
 profileBtn.addEventListener('click', () => {
