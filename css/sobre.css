@@ -86,3 +86,13 @@ footer {
   background: var(--footer-bg);
   color: var(--footer-texto);
 }
+
+.conteudo img {
+    max-width: 50%;   /* A imagem não ultrapassa o tamanho do container */
+    height: auto 20%;      /* Mantém a proporção original */
+    display: block;    /* Remove espaçamento indesejado */
+    margin: 20px auto;    /* Espaço opcional acima e abaixo */
+}
+
+
+
