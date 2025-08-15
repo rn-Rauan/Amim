@@ -1,8 +1,8 @@
 /* ESTILO GERAL */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff8f4;
-    color: #333;
+    background-color: #ffe9f7;
+    color: #000000;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -27,19 +27,19 @@ body {
 
 .conteudo h2 {
     font-size: 1.8rem;
-    color: #e07a5f;
+    color: #5a2d1c; /* cor marrom do texto */
     margin-bottom: 12px;
 }
 
 .conteudo p {
     font-size: 1rem;
-    color: #555;
+    color: #464646;
     margin-bottom: 15px;
 }
 
 /* BOTÃO COPIAR */
 #btnCopiar {
-    background-color: #e07a5f;
+    background-color: #ff4da6;
     color: white;
     border: none;
     padding: 8px 14px;
