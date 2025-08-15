@@ -1,52 +1,58 @@
+/* VARIÁVEIS DE CORES E ESTILO */
 :root {
-  --primary: #4769FA;
-  --primary-light: #EBF1FF;
-  --text: #4A4A52;
-  --border: #E5E5E5;
-  --alarm: #E63946;
-  --bg: #F5F5F5;
-  --dropdown-bg: #FCFCFC;
+  --primary: #4769FA;         /* Cor principal (azul) */
+  --primary-light: #EBF1FF;   /* Azul claro para fundos */
+  --text: #4A4A52;            /* Cor padrão do texto */
+  --border: #E5E5E5;          /* Cor de bordas sutis */
+  --alarm: #E63946;           /* Vermelho para alertas/notificações */
+  --bg: #F5F5F5;              /* Cor de fundo geral */
+  --dropdown-bg: #FCFCFC;     /* Fundo dos menus suspensos */
 }
 
+/* Reset básico para todos os elementos */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Inclui padding e borda no cálculo do tamanho */
   margin: 0;
   padding: 0;
 }
 
+/* Estilo base do corpo */
 body {
-  font-family: 'Work Sans', sans-serif;
-  padding: 1rem;
+  font-family: 'Work Sans', sans-serif; /* Fonte moderna */
+  padding: 1rem;                        /* Espaçamento interno */
 }
 
+/* CABEÇALHO E NAVEGAÇÃO */
 header {
-  position: relative;
+  position: relative;          /* Necessário para posicionar elementos filhos absolutos */
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: flex-end;   /* Alinha elementos para a direita */
+  align-items: center;         /* Centraliza verticalmente */
 }
 
 .navigation_group {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1rem;                    /* Espaço entre os itens */
 }
 
+/* Ícones gerais */
 .icon {
   width: 2rem;
   height: 2rem;
   cursor: pointer;
 }
 
+/* NOTIFICAÇÕES */
 .notification_wrapper {
-  position: relative;
+  position: relative; /* Necessário para posicionar o contador dentro */
 }
 
 .notification_count {
-  background: var(--alarm);
+  background: var(--alarm);  /* Vermelho para destaque */
   color: white;
   font-size: 0.7rem;
-  border-radius: 50%;
+  border-radius: 50%;        /* Torna um círculo */
   width: 1rem;
   height: 1rem;
   display: flex;
@@ -57,6 +63,7 @@ header {
   right: 0;
 }
 
+/* PERFIL E MENU SUSPENSO */
 .profile_btn {
   border: none;
   background: none;
@@ -66,8 +73,8 @@ header {
 .profile_avatar {
   width: 3rem;
   height: 3rem;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 50%; /* Foto de perfil circular */
+  object-fit: cover; /* Evita distorção */
 }
 
 .dropdown_wrapper {
@@ -80,19 +87,21 @@ header {
   border-radius: 0.5rem;
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out; /* Animação de entrada */
 }
 
+/* Estado oculto com animação */
 .dropdown_wrapper.hide {
-  animation: fadeOut 0.3s ease-in-out;
+  animation: fadeOut 0.3s ease-in-out; /* Animação de saída */
   opacity: 0;
   visibility: hidden;
 }
 
 .none {
-  display: none;
+  display: none; /* Esconde completamente */
 }
 
+/* INFORMAÇÕES DO PERFIL */
 .profile_wrapper {
   display: flex;
   align-items: center;
@@ -120,6 +129,8 @@ header {
   margin: 0.75rem 0;
 }
 
+/* LINKS DE NAVEGAÇÃO NO MENU */
+
 nav ul {
   list-style: none;
   display: flex;
@@ -133,8 +144,10 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: var(--primary);
+  color: var(--primary); /* Cor azul ao passar o mouse */
 }
+
+/* ÁREA DE PLANO/UPGRADE */
 
 .plan {
   display: flex;
@@ -150,6 +163,8 @@ nav ul li:hover {
   text-decoration: none;
   font-size: 0.85rem;
 }
+
+/* ANIMAÇÕES DE ENTRADA/SAÍDA */
 
 @keyframes fadeIn {
   from {opacity: 0; visibility: hidden;}
