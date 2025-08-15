@@ -1,0 +1,162 @@
+:root {
+  --primary: #4769FA;
+  --primary-light: #EBF1FF;
+  --text: #4A4A52;
+  --border: #E5E5E5;
+  --alarm: #E63946;
+  --bg: #F5F5F5;
+  --dropdown-bg: #FCFCFC;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  padding: 1rem;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation_group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.notification_wrapper {
+  position: relative;
+}
+
+.notification_count {
+  background: var(--alarm);
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profile_btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.profile_avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dropdown_wrapper {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 250px;
+  background: var(--dropdown-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.dropdown_wrapper.hide {
+  animation: fadeOut 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}
+
+.profile_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.profile_email {
+  font-size: 0.85rem;
+  color: gray;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0.75rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+nav ul li:hover {
+  color: var(--primary);
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upgrade_btn {
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; visibility: hidden;}
+  to {opacity: 1; visibility: visible;}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1; visibility: visible;}
+  to {opacity: 0; visibility: hidden;}
+}
