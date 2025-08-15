@@ -1,0 +1,20 @@
+/* HEADER E NAV */
+header nav {
+    background-color: #e07a5f;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 12px;
+    width: 100%;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+
+header nav a:hover {
+    opacity: 0.8;
+}
